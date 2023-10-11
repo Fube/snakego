@@ -64,6 +64,7 @@ func main() {
 
 	rand.Seed(time.Now().UnixNano())
 
+	exec.Command("stty", "-F", "/dev/tty", "cbreak").Run()
 	exec.Command("stty", "-F", "/dev/tty", "-echo").Run()
 
 	s := snake.New()
@@ -133,6 +134,7 @@ func screenReset() {
 
 func cleanUp() {
 	screenReset()
+	exec.Command("stty", "-F", "/dev/tty", "-cbreak").Run()
 	exec.Command("stty", "-F", "/dev/tty", "echo").Run()
 }
 
