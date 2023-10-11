@@ -1,2 +1,2 @@
 # snakego
-![ubuntu_Ef2ugFlfn3](https://github.com/Fube/snakego/assets/8064235/71773a97-15c6-4991-a61c-dad227d6aeda)
+![ubuntu_Ri1lA6lrZj](https://github.com/Fube/snakego/assets/8064235/59502b18-0e68-4a34-b207-e3af6ad4b5e7)
